@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: honeydew;
+    color: brown;
+}
+
+html{
+    font-size: 150%;
+}
+
+header{
+     border: 5px double whitesmoke;
+}
+
+.number{
+    font-size: 6rem;
+    text-align: center;
+    padding: 3rem;
+    margin: 1rem auto;
+    border: 8px solid white;
+}
+
+.container{
+    width: 80%;
+    margin: 2rem auto;
+    background-color: burlywood;
+    height: 32rem;
+    border: 10px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 6rem rgb(65, 62, 58);
+}
+
+.guess{
+    margin: 1rem auto;
+    display: block;
+    width: 7rem;
+    font-size: 3rem;
+}
+
+.match{
+    margin:1rem auto;
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    
+}
+
+.match:hover{
+    color: green;
+    background-color: blue;
+}
+
+p{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.message{
+    margin: 1rem auto;
+}
+
+.message-score{
+    margin: 1rem auto;
+}
+
+input[type=number]{
+    border: none;
+    border-radius: 10px;
+
+   text-align: center;
+}

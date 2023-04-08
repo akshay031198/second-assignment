@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Resume-using-bootstrap</title>
+</head>
+<body>
+     <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+        <a class = "navbar-brand" data-bs-toggle="collapse" data-bs-target="#navigation-bar" href="#"><i class="bi bi-person-circle ps-4 fs-3"></i></a>
+        <div class="collapse navbar-collapse justify-content-evenly" id="navigation-bar">
+        <ul class="navbar-nav nav-pills">
+           <li class="nav-item"><a class = "nav-link text-light px-3 btn btn-warning" href="#">Home</a></li>
+           <li class="nav-item"><a class = "nav-link text-warning px-3" href="#">skills</a></li>
+           <li class="nav-item"><a class = "nav-link text-warning px-3" href="#">Education</a></li>
+           <li class="nav-item"><a class = "nav-link text-warning px-3" href="#">Projects</a></li>
+           <li class="nav-item dropdown" data-bs-toggle="dropdown"><a class = "nav-link text-warning px-3 dropdown-toggle" href="#">Contacts</a>
+               <div class="dropdown-menu">
+                <a class="dropdown-item" href="">project1</a>
+                <a class="dropdown-item" href="">project2</a>
+                
+               </div>    
+        
+        </li>
+
+        </ul>
+        
+        
+            <form class="me-3">
+                <div class = "input-group input-group-sm">
+                    <input type="text" placeholder="search" class="form-control">
+                    <button type="button" class="btn btn-warning"><i class="bi bi-search-heart"></i></button>
+                </div>
+            </form>
+        </div>
+
+     </nav> 
+     <section class="bg-info" >
+        <div class="container-fluid">
+            <div class="row justify-content-between align-item-center " style="height: 60vh;">
+                <div class="col text-center">
+                    <p class="lead mb1">Hi, I am</p>
+                   <p><span class="h1 display-2">Akshay Vandanapu</span></p>
+                    <h2 class="">A Professional Full Stack Developer</h2>
+                    <a href="#" class ="btn btn-outline-warning px-3 m-2">Learn More</a>
+                    <a href="#" class="btn btn-outline-success px-3 m-2">Contact Me</a>
+                </div>
+            </div>
+        </div>
+
+     </section>
+     <section class="bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center m-3">
+                 <h1 class="text-warning display-4">Skillsets</h1>
+                 <p class="lead text-secondary">This is my over view of skill set how it look to other's</p>
+                </div>              
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="bi bi-laptop"></i>
+                 <p class="lead text-secondary">Front End Developer</p>   
+                 <div claass="row">
+                    <div class="col">
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-warning" style="width:90%">HTML</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-warning" style="width:90%">CSS</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-warning" style="width:90%">JS</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-warning" style="width:90%">React JS</div>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            
+                <div class="col-md-4">
+                    <i class="bi bi-database"></i>
+                 <p class="lead text-secondary">Data Base Admin</p>   
+                 <div claass="row">
+                    <div class="col">
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-info" style="width:90%">Sql</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-info" style="width:90%">Db2</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-info" style="width:90%">Mongo Db</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-info" style="width:90%">No Sql</div>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            
+            
+                <div class="col-md-4">
+                    <i class="bi bi-cpu"></i>
+                 <p class="lead text-secondary">Back End Developer</p> 
+                 <div claass="row">
+                    <div class="col">
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-warning" style="width:90%">Node</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-warning" style="width:90%">Express</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-warning" style="width:90%">Java</div>
+                        </div>
+                        <div class="progress bg-secondary w-50 mx-auto my-3">
+                            <div class="progress-bar bg-warning" style="width:90%">dhango</div>
+                        </div>
+                    </div>
+                 </div>  
+                </div>
+            </div>
+        
+            
+
+        </div>
+     </section>
+
+     <!--Education-->
+   
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

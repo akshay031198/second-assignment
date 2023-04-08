@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <style>
+        body {
+            background-color: rgb(237, 229, 218);
+            display: flex;
+            justify-content: center;
+            height: 100vh; 
+            align-items: center;}
+       
+    </style>    
+</head>
+<body>
+    <html>  
+<body>  
+<script>  
+  
+  function add(a,b){
+  return a+b
+}
+function sub(a,b){
+  return a-b
+}
+function mul(a,b){
+  return a*b
+}
+
+function calculate(operation, val1, val2){
+  return operation(val1, val2)
+}
+
+
+document.write(calculate(add, calculate(sub, 19,5) , calculate(mul,8,9)))
+  
+
+</script>  
+</body>
+</html>

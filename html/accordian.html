@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/accordian.css">
+    <title>Accordian</title>
+</head>
+<body>
+    <div class="accordion">
+        <div class ="item">
+            <p class = "sno">01</p>
+            <p class = "text">This is my home</p>
+            <button type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="arrow-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </button>
+              <div class="hidden-text">
+                <ul>
+                    <li>whatapp due</li>
+                    <li>Nice lap</li>
+                    <li>lets do some work</li>
+                </ul>
+              </div>
+              
+        </div>
+    </div>
+    <script>
+        const acc = document.getElementsByClassName('item');
+        for(i=0;i<acc.length;i++){
+            acc[i].addEventListener('click' , function(){
+                this.classList.toggle('show');
+            })
+        }
+    </script>
+</body>
+</html>

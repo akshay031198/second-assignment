@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+.container{
+    /*background-color: rgb(33, 143, 160);*/
+    background-color: blueviolet;
+    margin: 100px;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: flex;
+   justify-content: space-around;
+   /* justify-content: space-evenly;*/
+    gap: 10px;
+    width: 80%;
+    box-shadow: 0 2rem 2rem rgb(38, 32, 32);
+}
+
+.number{
+    font-size: 6rem;
+    text-align: center;
+    padding: 3rem;
+    margin: 1rem 1rem;
+    border: 15px solid white;
+}
+
+.number1{
+    font-size: 6rem;
+    text-align: center;
+    padding: 3rem;
+    margin: 1rem 1rem;
+    border: 15px solid white;
+}
+
+.rell{
+    font-size: 30px;
+    display: block;
+    padding: 1rem 1rem;
+    margin: 1rem auto;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    display: block;
+    width: 60%;
+    color:black
+}
+.role{
+    margin:1rem auto;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: brown;
+}
+
+.role:hover{
+    color: green;
+    background-color: blue;
+}
+
+.hidden{
+    display: none;
+}

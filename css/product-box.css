@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box; 
+  
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.9;
+  /*  border: 3px solid black;*/
+  /*border:none;*/
+}
+
+.container{
+   display: flex; 
+    gap: 30px; 
+    align-items: center;
+   
+    
+}
+
+.item-img{
+    margin-left: 10px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    
+    }
+
+.item{
+    width:50%;
+    margin: 60px auto;
+  border: 3px solid black;
+  position: relative;
+    
+}
+
+.item-details{
+    margin: 10px;
+    
+}
+
+.item-title{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    background-color: rgb(230, 230, 230);
+    
+}
+
+.item-info{
+    flex: 1 0;
+    margin-top: 10px;
+}
+
+.item-price{
+    display: flex;
+    margin-bottom: 20px;
+   /* border: none;*/
+    justify-content: space-between;
+}
+
+.price{
+    font-size: 30px;
+    
+}
+
+.more-details:link,.more-details:visited{
+    color: rgb(133, 6 , 6);
+   display: inline-block;
+   margin: 10px;
+   text-decoration: none;
+}
+
+.more-details:hover{
+    text-decoration: underline;
+}
+
+.delivery{
+    font-size: 14px;
+    font-weight: bold;
+    align-self:center ;
+    color:brown;
+}
+
+.offer{
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+
+.item-colors{
+    display: flex;
+    gap:10px;
+}    
+
+.color{
+    height: 20px;
+    width: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.color:hover{
+    border:2px solid black;
+    cursor: pointer;
+}
+
+.color-green{
+    background-color: green;
+}
+
+.color-yellow{
+    background-color: yellow;
+}
+
+.color-violet{
+    background-color: violet;
+}
+
+.color-purple{
+    background-color: purple;
+}
+
+.color-blue{
+    background-color: blue;
+}
+
+.item-desc{
+    flex:1;
+    margin: top 10px;
+}
+
+.desc-list{
+    margin-top: 50px;
+    list-style-type: square;
+}
+
+.desc-title{
+    margin-left: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+
+
+

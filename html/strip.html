@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting</title>
+    <style>
+        body {
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            height: 100vh; 
+            align-items: center;}
+       
+    </style>    
+</head>
+<body>
+    <html>
+<head>
+
+
+
+
+<script type="text/javascript">
+  /*  document.write("<center><font size=+3 style='color: green;'>");*/
+    var day = new Date();
+    var hr = day.getHours();
+    if (hr >= 0 && hr < 12) {
+        document.write("<center><font size=+13 style='color: blue; background: pink'>Good Morning!");
+    } else if (hr == 12) {
+        document.write("<center><font size=+13 style='color: yellow; background: yellow'>Good Noon!");
+    } else if (hr >= 12 && hr <= 17) {
+        document.write("<center><font size=+13 style='color: green; background: blue'>Good Afternoon!");
+    } else {
+        document.write("<center><font size=+13 style='color: pink; background: green'>Good Evening!");
+    }
+    document.write("</font></center>");
+</script>
+
+    
+</body>
+</html>
